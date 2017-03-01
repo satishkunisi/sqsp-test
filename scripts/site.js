@@ -7,6 +7,8 @@
 
 var core = require('@squarespace/core');
 
+console.log('hello');
+
 window.addEventListener('DOMContentLoaded', function() {
 
   var images = document.querySelectorAll('img[data-src]');
